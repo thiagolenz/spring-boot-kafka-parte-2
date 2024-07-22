@@ -1,0 +1,9 @@
+navegar até a pasta
+
+/Users/colaborador/Projects/MasterDEV/temp-kafka-server/kafka_2.12-3.5.1
+
+primeiro iniciar o zookeeper:
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+depois o kafka
+bin/kafka-server-start.sh config/server.properties
